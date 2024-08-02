@@ -109,9 +109,7 @@ function App() {
             </h3>
             <div className="p-2 mt-4">
               <p className="m-2 text-center text-lg sm:text-xl font-semibold border border-teal-400 p-4">
-                <span className="lg:font-bold lg:text-2xl p-1 font-semibold text-xl">{amount}</span> 
-                <span className="lg:font-semibold lg:text-xl font-medium  p-2">{fromSelectedCurrency}</span> 
-                <span className="lg:font-bold lg:text-2xl text-xl p-2">= </span>
+
                 <span className="lg:font-bold lg:text-2xl font-semibold text-xl p-1">{convertedAmount}</span>{" "}
                 <span className="lg:font-semibold lg:text-xl font-medium  p-2">{toSelectedCurrency}</span>
               </p>
